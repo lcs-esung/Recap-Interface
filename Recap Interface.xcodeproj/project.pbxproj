@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AE20FED2B4F057A0059F546 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE20FEC2B4F057A0059F546 /* FirstView.swift */; };
 		2AE61E362B4F014E00716B74 /* Recap_InterfaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE61E352B4F014E00716B74 /* Recap_InterfaceApp.swift */; };
 		2AE61E382B4F014E00716B74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE61E372B4F014E00716B74 /* ContentView.swift */; };
 		2AE61E3A2B4F015000716B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE61E392B4F015000716B74 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AE20FEC2B4F057A0059F546 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		2AE61E322B4F014E00716B74 /* Recap Interface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recap Interface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE61E352B4F014E00716B74 /* Recap_InterfaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recap_InterfaceApp.swift; sourceTree = "<group>"; };
 		2AE61E372B4F014E00716B74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				2AE61E3C2B4F015000716B74 /* Preview Assets.xcassets */,
+				2AE20FEC2B4F057A0059F546 /* FirstView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AE61E382B4F014E00716B74 /* ContentView.swift in Sources */,
+				2AE20FED2B4F057A0059F546 /* FirstView.swift in Sources */,
 				2AE61E362B4F014E00716B74 /* Recap_InterfaceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
