@@ -40,13 +40,13 @@ struct FirstView: View {
                     
                     Text(title)
                         .foregroundStyle(.white)
-                        .padding(.trailing,33)
+                        .padding(.trailing, 33)
                         .bold()
                     
                     Text(descriptions)
                         .foregroundStyle(lightGray)
                         .font(.system(size: 14))
-                        .padding(.trailing,13)
+                        .padding(.trailing, 13)
                 }
             }
         }

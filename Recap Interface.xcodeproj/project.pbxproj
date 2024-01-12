@@ -55,6 +55,7 @@
 			children = (
 				2AE61E352B4F014E00716B74 /* Recap_InterfaceApp.swift */,
 				2AE61E372B4F014E00716B74 /* ContentView.swift */,
+				2AE20FEC2B4F057A0059F546 /* FirstView.swift */,
 				2AE61E392B4F015000716B74 /* Assets.xcassets */,
 				2AE61E3B2B4F015000716B74 /* Preview Content */,
 			);
@@ -65,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				2AE61E3C2B4F015000716B74 /* Preview Assets.xcassets */,
-				2AE20FEC2B4F057A0059F546 /* FirstView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
