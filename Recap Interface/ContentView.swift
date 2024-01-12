@@ -45,6 +45,7 @@ struct ContentView: View {
             // Foreground
             VStack{
                 Text("My Home")
+                    .foregroundColor(.white)
 
                 HStack {
                     FirstView(title: "Climate", descriptions: "16.0-20.5C°", symbol: "fan.fill")

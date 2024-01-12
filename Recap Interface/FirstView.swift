@@ -9,17 +9,6 @@ import SwiftUI
 
 struct FirstView: View {
     
-    let darkGray = Color(
-        hue: 0/360.0,
-        saturation: 0.0,
-        brightness: 0.45
-    )
-    let lightGray = Color(
-        hue: 0/360.0,
-        saturation: 0.0,
-        brightness: 0.73
-    )
-    
     let title: String
     let descriptions: String
     let symbol: String
@@ -28,7 +17,7 @@ struct FirstView: View {
         
         ZStack {
             Rectangle()
-                .foregroundStyle(darkGray)
+                .foregroundColor(.darkGrey)
                 .frame(width: 150, height: 50)
                 .cornerRadius(30)
                 
@@ -44,7 +33,7 @@ struct FirstView: View {
                         .bold()
                     
                     Text(descriptions)
-                        .foregroundStyle(lightGray)
+                        .foregroundStyle(.lightGrey)
                         .font(.system(size: 14))
                         .padding(.trailing, 13)
                 }
