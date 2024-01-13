@@ -58,5 +58,33 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    
+    
+    TabView(selection: .constant(1)) {
+        
+        ContentView()
+            .tabItem {
+                Image(systemName: "house.fill")
+                Text("Home")
+            }
+            .tag(1)
+        
+        Text("Automation")
+            .tabItem {
+                Image(systemName: "clock.fill")
+                Text("World Clock")
+            }
+            .tag(2)
+        
+        Text("Discover")
+            .tabItem {
+                Image(systemName: "star.fill")
+                Text("Alarm")
+            }
+            .tag(3)
+    }
+    
+    .accentColor(.white)
+    .preferredColorScheme(.dark)
+    
 }

@@ -15,30 +15,31 @@ struct FirstView: View {
     
     var body: some View {
         
-        ZStack {
-            Rectangle()
-                .foregroundColor(.darkGrey)
-                .frame(width: 150, height: 50)
-                .cornerRadius(30)
+       
+          
                 
             HStack {
                 Image(systemName: symbol)
-                    .foregroundColor(.cyan)
+                    .foregroundColor(.cyan).padding(.leading, 10)
                 
                 VStack{
                     
                     Text(title)
                         .foregroundStyle(.white)
-                        .padding(.trailing, 33)
+                        .font(.system(size: 16))
+                        .padding(.trailing, 23)
+                        .padding(.top, 8)
                         .bold()
                     
                     Text(descriptions)
                         .foregroundStyle(.lightGrey)
                         .font(.system(size: 14))
-                        .padding(.trailing, 13)
+                        .padding(.trailing, 23)
+                        .padding(.bottom, 8)
                 }
             }
-        }
+            .background(.darkGrey)
+            .cornerRadius(40)
         
     
     }
